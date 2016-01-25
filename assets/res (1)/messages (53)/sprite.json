@@ -22,56 +22,70 @@
       "id": "4",
       "name": "turn_w",
       "startFrameIndex": 0,
-      "endFrameIndex": 1,
+      "endFrameIndex": 0,
       "speed": 1
     },
     {
       "id": "5",
       "name": "turn_b",
       "startFrameIndex": 8,
-      "endFrameIndex": 9,
+      "endFrameIndex": 8,
       "speed": 1
     },
     {
       "id": "0",
       "name": "check_w",
-      "startFrameIndex": 2,
-      "endFrameIndex": 3,
+      "startFrameIndex": 1,
+      "endFrameIndex": 1,
       "speed": 1
     },
     {
       "id": "1",
       "name": "check_b",
+      "startFrameIndex": 9,
+      "endFrameIndex": 9,
+      "speed": 1
+    },
+    {
+      "id": "8",
+      "name": "pat_w",
+      "startFrameIndex": 2,
+      "endFrameIndex": 2,
+      "speed": 1
+    },
+    {
+      "id": "9",
+      "name": "pat_b",
       "startFrameIndex": 10,
-      "endFrameIndex": 11,
+      "endFrameIndex": 10,
       "speed": 1
     },
     {
       "id": "2",
       "name": "mate_w",
-      "startFrameIndex": 4,
-      "endFrameIndex": 5,
+      "startFrameIndex": 3,
+      "endFrameIndex": 3,
       "speed": 1
     },
     {
       "id": "3",
       "name": "mate_b",
-      "startFrameIndex": 12,
-      "endFrameIndex": 13,
+      "startFrameIndex": 11,
+      "endFrameIndex": 11,
       "speed": 1
     },
     {
       "id": "6",
       "name": "promo_w",
-      "startFrameIndex": 6,
-      "endFrameIndex": 7,
+      "startFrameIndex": 4,
+      "endFrameIndex": 4,
       "speed": 1
     },
     {
       "id": "7",
       "name": "promo_b",
-      "startFrameIndex": 14,
-      "endFrameIndex": 15,
+      "startFrameIndex": 12,
+      "endFrameIndex": 12,
       "speed": 1
     }
   ],

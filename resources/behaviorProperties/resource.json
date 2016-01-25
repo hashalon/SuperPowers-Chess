@@ -154,6 +154,12 @@
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "Skybox": {
+      "scriptId": "74",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }

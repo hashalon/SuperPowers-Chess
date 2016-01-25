@@ -14,13 +14,13 @@ class BoardFactory extends Sup.Behavior {
     start() {
         this.game  = this.actor.getBehavior(Game);
         this.board = new Board( this.actor, this.scale, new Sup.Math.Vector2(this.width,this.height) );
+        this.actor.setPosition( -(this.width*0.5-0.5)*this.scale, 0, -(this.height*0.5-0.5)*this.scale );
         
-        // we place the camera
-        let center = this.actor.getChild("Center");
-        center.setLocalPosition( (this.width*0.5-0.5)*this.scale, 0, (this.height*0.5-0.5)*this.scale );
-        
-        this.hud = center.getChild("HUD").getBehavior(HUD);
+        this.hud = Sup.getActor("HUD").getBehavior(HUD);
         this.hud.Game = this.game; // pass the game to the HUD
+        
+        // we recover the camera center point
+        let center = Sup.getActor("Center");
         this.camera = center.getChild("Camera");
         
         // we generate the board

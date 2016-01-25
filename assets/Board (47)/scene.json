@@ -4,140 +4,7 @@
     {
       "id": "2",
       "name": "Board",
-      "children": [
-        {
-          "id": "7",
-          "name": "Center",
-          "children": [
-            {
-              "id": "6",
-              "name": "Anchor",
-              "children": [
-                {
-                  "id": "0",
-                  "name": "Camera",
-                  "children": [],
-                  "components": [
-                    {
-                      "type": "Camera",
-                      "config": {
-                        "mode": "perspective",
-                        "fov": 45,
-                        "orthographicScale": 10,
-                        "viewport": {
-                          "x": 0,
-                          "y": 0,
-                          "width": 1,
-                          "height": 1
-                        },
-                        "depth": 0,
-                        "nearClippingPlane": 0.1,
-                        "farClippingPlane": 1000
-                      },
-                      "id": "0"
-                    }
-                  ],
-                  "position": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 25
-                  },
-                  "orientation": {
-                    "x": -1.740230182178948e-11,
-                    "y": 0,
-                    "z": 2.7515545397704955e-10,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 1,
-                    "y": 1,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
-                }
-              ],
-              "components": [],
-              "position": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-              },
-              "orientation": {
-                "x": -0.25881904510252074,
-                "y": 0,
-                "z": 0,
-                "w": 0.9659258262890683
-              },
-              "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-              },
-              "visible": true,
-              "layer": 0,
-              "prefab": null
-            },
-            {
-              "id": "12",
-              "name": "HUD",
-              "children": [],
-              "components": [],
-              "position": {
-                "x": 0,
-                "y": -3,
-                "z": 0
-              },
-              "orientation": {
-                "x": -0.7071067811865475,
-                "y": 0,
-                "z": 0,
-                "w": 0.7071067811865476
-              },
-              "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-              },
-              "visible": true,
-              "layer": 0,
-              "prefab": {
-                "sceneAssetId": "60"
-              }
-            }
-          ],
-          "components": [
-            {
-              "type": "Behavior",
-              "config": {
-                "behaviorName": "CameraControl",
-                "propertyValues": {}
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "w": 6.123233995736766e-17
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        }
-      ],
+      "children": [],
       "components": [
         {
           "type": "Behavior",
@@ -171,6 +38,206 @@
         "x": 1,
         "y": 1,
         "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "7",
+      "name": "Center",
+      "children": [
+        {
+          "id": "6",
+          "name": "Anchor",
+          "children": [
+            {
+              "id": "0",
+              "name": "Camera",
+              "children": [],
+              "components": [
+                {
+                  "type": "Camera",
+                  "config": {
+                    "mode": "perspective",
+                    "fov": 45,
+                    "orthographicScale": 10,
+                    "viewport": {
+                      "x": 0,
+                      "y": 0,
+                      "width": 1,
+                      "height": 1
+                    },
+                    "depth": 0,
+                    "nearClippingPlane": 0.1,
+                    "farClippingPlane": 1000
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 25
+              },
+              "orientation": {
+                "x": -1.740230182178948e-11,
+                "y": 0,
+                "z": 2.7515545397704955e-10,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": -0.25881904510252074,
+            "y": 0,
+            "z": 0,
+            "w": 0.9659258262890683
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "CameraControl",
+            "propertyValues": {}
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 1,
+        "z": 0,
+        "w": 6.123234262925839e-17
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "12",
+      "name": "HUD",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": -20,
+        "z": 0
+      },
+      "orientation": {
+        "x": -4.3297804701086715e-17,
+        "y": 0.7071067811865476,
+        "z": 0.7071067811865475,
+        "w": 4.329780470108673e-17
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "60"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Skybox",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": -10,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "73"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Table",
+      "children": [],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "75",
+            "animationId": "",
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 16,
+        "y": 16,
+        "z": 16
       },
       "visible": true,
       "layer": 0,

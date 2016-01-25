@@ -117,6 +117,11 @@
             "id": "58",
             "name": "Effect",
             "type": "script"
+          },
+          {
+            "id": "74",
+            "name": "Skybox",
+            "type": "script"
           }
         ]
       }
@@ -235,6 +240,16 @@
         "id": "61",
         "name": "background",
         "type": "sprite"
+      },
+      {
+        "id": "72",
+        "name": "skybox",
+        "type": "model"
+      },
+      {
+        "id": "75",
+        "name": "table",
+        "type": "model"
       }
     ]
   },
@@ -351,6 +366,11 @@
           {
             "id": "52",
             "name": "Effect",
+            "type": "scene"
+          },
+          {
+            "id": "73",
+            "name": "Skybox",
             "type": "scene"
           }
         ]
