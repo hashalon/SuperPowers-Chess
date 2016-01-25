@@ -1,0 +1,86 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "pixelsPerUnit": 100,
+  "framesPerSecond": 1,
+  "opacity": null,
+  "alphaTest": 0.1,
+  "frameOrder": "columns",
+  "grid": {
+    "width": 64,
+    "height": 16
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "id": "4",
+      "name": "turn_w",
+      "startFrameIndex": 0,
+      "endFrameIndex": 1,
+      "speed": 1
+    },
+    {
+      "id": "5",
+      "name": "turn_b",
+      "startFrameIndex": 8,
+      "endFrameIndex": 9,
+      "speed": 1
+    },
+    {
+      "id": "0",
+      "name": "check_w",
+      "startFrameIndex": 2,
+      "endFrameIndex": 3,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "check_b",
+      "startFrameIndex": 10,
+      "endFrameIndex": 11,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "mate_w",
+      "startFrameIndex": 4,
+      "endFrameIndex": 5,
+      "speed": 1
+    },
+    {
+      "id": "3",
+      "name": "mate_b",
+      "startFrameIndex": 12,
+      "endFrameIndex": 13,
+      "speed": 1
+    },
+    {
+      "id": "6",
+      "name": "promo_w",
+      "startFrameIndex": 6,
+      "endFrameIndex": 7,
+      "speed": 1
+    },
+    {
+      "id": "7",
+      "name": "promo_b",
+      "startFrameIndex": 14,
+      "endFrameIndex": 15,
+      "speed": 1
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  },
+  "wrapping": "clampToEdge"
+}

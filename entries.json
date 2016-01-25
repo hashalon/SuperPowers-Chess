@@ -1,0 +1,370 @@
+[
+  {
+    "id": "0",
+    "name": "src",
+    "type": null,
+    "children": [
+      {
+        "id": "9",
+        "name": "BoardFactory",
+        "type": "script"
+      },
+      {
+        "id": "69",
+        "name": "Util",
+        "type": "script"
+      },
+      {
+        "id": "66",
+        "name": "Game",
+        "type": "script"
+      },
+      {
+        "id": "71",
+        "name": "Board",
+        "type": "script"
+      },
+      {
+        "id": "65",
+        "name": "player",
+        "type": null,
+        "children": [
+          {
+            "id": "49",
+            "name": "Camera",
+            "type": "script"
+          },
+          {
+            "id": "63",
+            "name": "Player",
+            "type": "script"
+          },
+          {
+            "id": "64",
+            "name": "Turn",
+            "type": "script"
+          }
+        ]
+      },
+      {
+        "id": "48",
+        "name": "pieces",
+        "type": null,
+        "children": [
+          {
+            "id": "2",
+            "name": "AbstractPiece",
+            "type": "script"
+          },
+          {
+            "id": "45",
+            "name": "DirectionalMovePiece",
+            "type": "script"
+          },
+          {
+            "id": "46",
+            "name": "JumpMovePiece",
+            "type": "script"
+          },
+          {
+            "id": "3",
+            "name": "Pawn",
+            "type": "script"
+          },
+          {
+            "id": "4",
+            "name": "Rook",
+            "type": "script"
+          },
+          {
+            "id": "5",
+            "name": "Knight",
+            "type": "script"
+          },
+          {
+            "id": "6",
+            "name": "Bishop",
+            "type": "script"
+          },
+          {
+            "id": "7",
+            "name": "Queen",
+            "type": "script"
+          },
+          {
+            "id": "8",
+            "name": "King",
+            "type": "script"
+          }
+        ]
+      },
+      {
+        "id": "57",
+        "name": "visuals",
+        "type": null,
+        "children": [
+          {
+            "id": "70",
+            "name": "HUD",
+            "type": "script"
+          },
+          {
+            "id": "56",
+            "name": "Print",
+            "type": "script"
+          },
+          {
+            "id": "58",
+            "name": "Effect",
+            "type": "script"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "res",
+    "type": null,
+    "children": [
+      {
+        "id": "10",
+        "name": "black",
+        "type": null,
+        "children": [
+          {
+            "id": "13",
+            "name": "block",
+            "type": "model"
+          },
+          {
+            "id": "15",
+            "name": "pawn",
+            "type": "model"
+          },
+          {
+            "id": "17",
+            "name": "rook",
+            "type": "model"
+          },
+          {
+            "id": "18",
+            "name": "knight",
+            "type": "model"
+          },
+          {
+            "id": "19",
+            "name": "bishop",
+            "type": "model"
+          },
+          {
+            "id": "20",
+            "name": "queen",
+            "type": "model"
+          },
+          {
+            "id": "21",
+            "name": "king",
+            "type": "model"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "name": "white",
+        "type": null,
+        "children": [
+          {
+            "id": "14",
+            "name": "block",
+            "type": "model"
+          },
+          {
+            "id": "16",
+            "name": "pawn",
+            "type": "model"
+          },
+          {
+            "id": "22",
+            "name": "rook",
+            "type": "model"
+          },
+          {
+            "id": "23",
+            "name": "knight",
+            "type": "model"
+          },
+          {
+            "id": "24",
+            "name": "bishop",
+            "type": "model"
+          },
+          {
+            "id": "25",
+            "name": "queen",
+            "type": "model"
+          },
+          {
+            "id": "26",
+            "name": "king",
+            "type": "model"
+          }
+        ]
+      },
+      {
+        "id": "51",
+        "name": "effect",
+        "type": "model"
+      },
+      {
+        "id": "53",
+        "name": "messages",
+        "type": "sprite"
+      },
+      {
+        "id": "54",
+        "name": "font",
+        "type": "font"
+      },
+      {
+        "id": "59",
+        "name": "promotions",
+        "type": "sprite"
+      },
+      {
+        "id": "61",
+        "name": "background",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "name": "prefab",
+    "type": null,
+    "children": [
+      {
+        "id": "68",
+        "name": "players",
+        "type": null,
+        "children": []
+      },
+      {
+        "id": "28",
+        "name": "black",
+        "type": null,
+        "children": [
+          {
+            "id": "30",
+            "name": "Block",
+            "type": "scene"
+          },
+          {
+            "id": "31",
+            "name": "Pawn",
+            "type": "scene"
+          },
+          {
+            "id": "32",
+            "name": "Rook",
+            "type": "scene"
+          },
+          {
+            "id": "33",
+            "name": "Knight",
+            "type": "scene"
+          },
+          {
+            "id": "34",
+            "name": "Bishop",
+            "type": "scene"
+          },
+          {
+            "id": "35",
+            "name": "Queen",
+            "type": "scene"
+          },
+          {
+            "id": "36",
+            "name": "King",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "37",
+        "name": "white",
+        "type": null,
+        "children": [
+          {
+            "id": "38",
+            "name": "Block",
+            "type": "scene"
+          },
+          {
+            "id": "39",
+            "name": "Pawn",
+            "type": "scene"
+          },
+          {
+            "id": "40",
+            "name": "Rook",
+            "type": "scene"
+          },
+          {
+            "id": "41",
+            "name": "Knight",
+            "type": "scene"
+          },
+          {
+            "id": "42",
+            "name": "Bishop",
+            "type": "scene"
+          },
+          {
+            "id": "43",
+            "name": "Queen",
+            "type": "scene"
+          },
+          {
+            "id": "44",
+            "name": "King",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "67",
+        "name": "visuals",
+        "type": null,
+        "children": [
+          {
+            "id": "60",
+            "name": "HUD",
+            "type": "scene"
+          },
+          {
+            "id": "55",
+            "name": "Print",
+            "type": "scene"
+          },
+          {
+            "id": "52",
+            "name": "Effect",
+            "type": "scene"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Board",
+    "type": "scene"
+  },
+  {
+    "id": "62",
+    "name": "TODO",
+    "type": "script"
+  }
+]

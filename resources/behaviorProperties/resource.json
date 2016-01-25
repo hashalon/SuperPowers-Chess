@@ -1,0 +1,159 @@
+{
+  "behaviors": {
+    "AbstractPiece": {
+      "scriptId": "2",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isBlack",
+          "type": "boolean"
+        }
+      ]
+    },
+    "Pawn": {
+      "scriptId": "3",
+      "line": 0,
+      "parentBehavior": "AbstractPiece",
+      "properties": []
+    },
+    "Rook": {
+      "scriptId": "4",
+      "parentBehavior": "DirectionalMovePiece",
+      "properties": []
+    },
+    "Knight": {
+      "scriptId": "5",
+      "parentBehavior": "JumpMovePiece",
+      "properties": []
+    },
+    "Bishop": {
+      "scriptId": "6",
+      "parentBehavior": "DirectionalMovePiece",
+      "properties": []
+    },
+    "Queen": {
+      "scriptId": "7",
+      "parentBehavior": "DirectionalMovePiece",
+      "properties": []
+    },
+    "King": {
+      "scriptId": "8",
+      "line": 0,
+      "parentBehavior": "JumpMovePiece",
+      "properties": []
+    },
+    "DirectionalMovePiece": {
+      "scriptId": "45",
+      "line": 0,
+      "parentBehavior": "AbstractPiece",
+      "properties": []
+    },
+    "JumpMovePiece": {
+      "scriptId": "46",
+      "line": 0,
+      "parentBehavior": "AbstractPiece",
+      "properties": []
+    },
+    "UtilBehavior": {
+      "scriptId": "69",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "Print": {
+      "scriptId": "56",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "Effect": {
+      "scriptId": "58",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CameraControl": {
+      "scriptId": "49",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "sensibility",
+          "type": "number"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "closest",
+          "type": "number"
+        },
+        {
+          "name": "farest",
+          "type": "number"
+        },
+        {
+          "name": "up",
+          "type": "string"
+        },
+        {
+          "name": "down",
+          "type": "string"
+        },
+        {
+          "name": "left",
+          "type": "string"
+        },
+        {
+          "name": "right",
+          "type": "string"
+        },
+        {
+          "name": "forward",
+          "type": "string"
+        },
+        {
+          "name": "backward",
+          "type": "string"
+        },
+        {
+          "name": "holdMouse",
+          "type": "boolean"
+        }
+      ]
+    },
+    "HUD": {
+      "scriptId": "70",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "BoardFactory": {
+      "scriptId": "9",
+      "line": 1,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "width",
+          "type": "number"
+        },
+        {
+          "name": "height",
+          "type": "number"
+        },
+        {
+          "name": "scale",
+          "type": "number"
+        }
+      ]
+    },
+    "Game": {
+      "scriptId": "66",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

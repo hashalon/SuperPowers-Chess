@@ -1,0 +1,7 @@
+{
+  "id": "iqMR",
+  "name": "chess",
+  "description": "a simple 3D chess game",
+  "formatVersion": 5,
+  "systemId": "game"
+}
